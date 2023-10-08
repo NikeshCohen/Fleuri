@@ -108,6 +108,11 @@
     pointer-events: none;
   }
 
+  .nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .hamburger {
     display: block;
     pointer-events: all;
@@ -264,8 +269,20 @@
 }
 
 @media (max-width: 32rem) {
+  section {
+    padding: 4rem 2rem;
+  }
+
   .heading {
     font-size: 3rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  .products {
+    gap: 6rem;
   }
 
   .testimonial-card {
@@ -274,10 +291,6 @@
 }
 
 @media (max-width: 27rem) {
-  .heading {
-    font-size: 2.6rem;
-  }
-
   .subheading {
     font-size: 1.8rem;
   }
@@ -292,17 +305,26 @@
     right: -30px;
   }
 
+  .products-intro-img {
+    width: 70%;
+    height: 70%;
+  }
+
   .product-card {
     width: 90%;
   }
 
-  .products-intro-img {
-    width: 30%;
-    height: 30%;
+  .product-feature-card {
+    width: 30rem;
   }
 
+  .services-intro-subheading,
   .services-subheading {
     font-size: 1.4rem;
+  }
+
+  .testimonials-subheading {
+    margin-bottom: 0rem;
   }
 
   .testimonial-card {
@@ -311,11 +333,24 @@
     height: 75%;
   }
 
+  .contact-us-subheading {
+    text-align: center;
+    margin-bottom: 6rem;
+  }
+
   .form-contact-us {
     width: 30rem;
   }
 
+  .form-contact-us-first-row {
+    gap: 1rem;
+  }
+
   .form-contact-us-first-row-input {
-    width: 13rem;
+    width: 14rem;
+  }
+
+  .footer-logo {
+    width: 20rem;
   }
 }
