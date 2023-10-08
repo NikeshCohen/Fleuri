@@ -1,0 +1,321 @@
+@media (max-width: 90em) {
+  .hero-img {
+    width: 60rem;
+  }
+
+  .intro-section-img,
+  .products-intro-img,
+  .contact-us-form-container-icon {
+    height: 40rem;
+  }
+
+  .intro-text-box {
+    width: 62rem;
+  }
+
+  .intro-heading br {
+    content: "";
+  }
+
+  .intro-heading br::after {
+    content: " ";
+  }
+
+  .products-intro {
+    gap: 10rem;
+  }
+
+  .products-intro-text-box-icon {
+    width: 20rem;
+    top: -30px;
+    right: -60px;
+  }
+
+  .product-card-icon-box {
+    margin-bottom: 0;
+  }
+
+  .product-card-icon {
+    width: 26rem;
+    height: 25rem;
+  }
+
+  .product-feature-card {
+    width: 34rem;
+  }
+
+  .services-intro-img {
+    width: 50rem;
+  }
+
+  .services-subheading {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 77em) {
+  .heading {
+    font-size: 5rem;
+  }
+
+  .subheading {
+    font-size: 2rem;
+  }
+
+  .intro {
+    justify-content: center;
+  }
+
+  .products,
+  .product-features,
+  .services {
+    align-items: center;
+  }
+
+  .hero-heading {
+    font-size: 6rem;
+  }
+
+  .hero-img {
+    width: 50rem;
+  }
+
+  .intro-section-img,
+  .products-intro-img,
+  .contact-us-form-container-icon {
+    height: 35rem;
+  }
+
+  .intro-text-box {
+    width: 60rem;
+  }
+
+  .services-heading {
+    text-align: center;
+  }
+
+  .contact-us-form-container-icon {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+  }
+}
+
+@media (max-width: 64em) {
+  .nav-links {
+    display: none;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .hamburger {
+    display: block;
+    pointer-events: all;
+  }
+
+  .hero-img {
+    width: 40rem;
+  }
+
+  .intro {
+    gap: 8rem;
+  }
+
+  .products-intro {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .products-intro-img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .product-card {
+    border: 0.1rem solid #20cd8d;
+  }
+
+  .product-card-icon-box {
+    justify-content: center;
+  }
+
+  .services-subheading br {
+    content: "";
+  }
+
+  .services-subheading br::after {
+    content: " ";
+  }
+
+  .footer {
+    text-align: center;
+    gap: 8rem;
+  }
+}
+
+@media (max-width: 48em) {
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  section {
+    padding: 8rem 4rem;
+  }
+
+  .heading {
+    font-size: 4.6rem;
+  }
+
+  .btn {
+    padding: 1.4rem;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    width: 16rem;
+  }
+
+  .nav {
+    height: 8rem;
+  }
+
+  .sticky {
+    height: 6.5rem;
+  }
+
+  .hero-text-box {
+    align-items: center;
+  }
+
+  .hero-img {
+    width: 26rem;
+  }
+
+  .hero-heading {
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .hero-subheading {
+    margin-bottom: 1.4rem;
+  }
+
+  .intro-text-box {
+    width: 95%;
+    padding: 4rem;
+  }
+
+  .intro-section-img {
+    height: 70%;
+    width: 70%;
+  }
+
+  .products-intro-text-box {
+    width: 80%;
+  }
+
+  .products-intro-text-box-icon {
+    width: 20rem;
+  }
+
+  .services-intro-subheading {
+    text-align: left;
+  }
+
+  .services-intro-subheading br {
+    content: "";
+  }
+
+  .services-intro-subheading br:after {
+    content: " ";
+  }
+
+  .services-intro-img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .service-card {
+    align-items: center;
+    width: 80%;
+  }
+
+  .testimonials-subheading {
+    text-align: center;
+  }
+
+  .testimonial-card {
+    width: 35rem;
+    height: 80%;
+  }
+
+  .faq-heading {
+    text-align: center;
+  }
+
+  .form-contact-us {
+    width: 40rem;
+  }
+
+  .form-contact-us-first-row-input {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 32rem) {
+  .heading {
+    font-size: 3rem;
+  }
+
+  .testimonial-card {
+    width: 32rem;
+  }
+}
+
+@media (max-width: 27rem) {
+  .heading {
+    font-size: 2.6rem;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+  }
+
+  .text {
+    font-size: 1.4rem;
+  }
+
+  .products-intro-text-box-icon {
+    width: 10rem;
+    top: -20px;
+    right: -30px;
+  }
+
+  .product-card {
+    width: 90%;
+  }
+
+  .products-intro-img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .services-subheading {
+    font-size: 1.4rem;
+  }
+
+  .testimonial-card {
+    margin: 3rem;
+    width: 28rem;
+    height: 75%;
+  }
+
+  .form-contact-us {
+    width: 30rem;
+  }
+
+  .form-contact-us-first-row-input {
+    width: 13rem;
+  }
+}
